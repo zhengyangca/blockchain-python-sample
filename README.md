@@ -2,11 +2,11 @@
 * Flask-RESTful API + Mine + Distributed Ledger + Consensus
 
 
-![BlockChain Demo](https://raw.githubusercontent.com/zhengyangca/FlaskBlockChain/master/static/title_img.png =500x300)
-
+![BlockChain Demo](https://raw.githubusercontent.com/zhengyangca/FlaskBlockChain/master/static/title_img.png )
 
 
 ## Note
+
 
 If you wish to get familiar with the recently famous concepts of **blockchain(and Cryptocurrencies)**, and even more details on how it works in **python** code, this repo will provide you a brief and clear sample and appropriate comments to help understand.
 
