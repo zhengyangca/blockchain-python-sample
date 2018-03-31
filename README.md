@@ -1,4 +1,7 @@
-![Image of Yaktocat](http://github.com/zhengyangca/FlaskBlockChain/blob/master/static/title_img.png)
+## BlockChain in Python and Flask
+* Flask-RESTful API + Mine + Distributed Ledger + Consensus
+
+![BlockChain Demo](https://raw.githubusercontent.com/zhengyangca/FlaskBlockChain/master/static/title_img.png)
 
 
 
@@ -12,6 +15,7 @@ Make sure you have Python 3 installed:
 `brew install python3`
 
 or update
+
 `brew update python`
 
 ## Usage
