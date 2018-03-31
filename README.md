@@ -1,5 +1,5 @@
 ## BlockChain in Python and Flask
-* Flask-RESTful API + Mine + Distributed Ledger + Consensus
+* Flask-RESTful API + Mine + Distributed Ledger + Decentralize & Consensus
 
 
 ![BlockChain Demo](https://raw.githubusercontent.com/zhengyangca/FlaskBlockChain/master/static/title_img.png )
@@ -57,3 +57,26 @@ with raw value:
 
 ### 3. Check all chains of transactions
 `localhost:5000/chain`
+
+### 4. Consensus
+#### add Nodes and always synchronize the longest chain to each node
+try run the python client twice with different ports:
+`python FlaskBlockChain.py -p 5000`
+and in another Terminal
+`python FlaskBlockChain.py -p 5001`
+
+Now register the second to the first node:
+
+post `localhost:5000/nodes/register` with value
+
+    {
+	"nodes" : ["http://localhost:5001"]
+    }
+
+Then mine at port 5001 few more times and run resolve for the 5000 node
+
+`localhost:5000/nodes/resolve`
+
+You will found the chain was replaced by the Consensus Algorithm:
+
+https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
