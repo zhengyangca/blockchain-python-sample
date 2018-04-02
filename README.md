@@ -8,7 +8,13 @@
 ## Note
 
 
-If you wish to get familiar with the recently famous concepts of **blockchain(and Cryptocurrencies)**, and even more details on how it works in **python** code, this repo will provide you a brief and clear sample and appropriate comments to help understand.
+Wish to get familiar with the recently famous concepts of **Blockchain and Distributed Ledgers**?
+
+Want to create your own sexy **Cryptocurrencies** similar to Bitcoins, Litecoins?
+
+And even more details on how it works in **python** code? 
+
+This repo will provide you a brief and clear sample and appropriate comments to help understand.
 
 ## Prepare
 Make sure you have Python 3 installed:
