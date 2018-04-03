@@ -83,6 +83,5 @@ Then mine at port 5001 few more times and run resolve for the 5000 node
 
 `localhost:5000/nodes/resolve`
 
-You will found the chain was replaced by the Consensus Algorithm:
+You will found the chain was replaced by the Consensus Algorithm.
 
-https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
